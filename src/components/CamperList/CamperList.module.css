@@ -8,3 +8,10 @@
 
   list-style: none;
 }
+
+.error {
+  text-align: center;
+  color: var(--button);
+  font-size: 18px;
+  margin-top: 40px;
+}

@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { selectFilters } from "../../redux/filters/selectors";
 import {
   selectCampers,
-  selectLoading,
+  selectLoading
 } from "../../redux/campers/selectors";
 
 import { fetchCampers } from "../../redux/campers/operations";
@@ -23,11 +23,8 @@ export default function CatalogPage() {
   const dispatch = useDispatch();
 
   const filters = useSelector(selectFilters);
-
   const campers = useSelector(selectCampers);
-
   const loading = useSelector(selectLoading);
-
   const [filtersKey, setFiltersKey] = useState(0);
 
   useEffect(() => {

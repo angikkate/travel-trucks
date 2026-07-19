@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import {
   fetchCampers,
-  fetchCamperById,
+  fetchCamperById
 } from "./operations";
 
 const initialState = {

@@ -1,9 +1,9 @@
-import css from "./Features.module.css";
-
 import automaticIcon from "../../assets/icons/automatic.svg";
 import petrolIcon from "../../assets/icons/petrol.svg";
 import alcoveIcon from "../../assets/icons/alcove.svg";
 import { formatText } from "../../utils/formatText";
+
+import css from "./Features.module.css";
 
 export default function Features({ transmission, engine, form }) {
   const items = [

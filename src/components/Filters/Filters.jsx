@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-
 import {
   resetPage,
   setLocation as setLocationFilter,
@@ -14,6 +13,7 @@ import RadioGroup from "../RadioGroup/RadioGroup";
 import mapIcon from "../../assets/icons/map.svg";
 import mapGrayIcon from "../../assets/icons/map-gray.svg";
 import closeIcon from "../../assets/icons/close.svg";
+
 import css from "./Filters.module.css";
 
 const camperForms = [

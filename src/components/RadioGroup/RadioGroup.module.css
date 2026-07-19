@@ -1,6 +1,5 @@
 .title {
   margin-bottom: 8px;
-
   font-weight: 400;
   font-size: 16px;
   line-height: 1.50;
@@ -29,42 +28,30 @@
 
 .radio {
   position: absolute;
-
   opacity: 0;
-
   width: 1px;
   height: 1px;
 }
 
 .customRadio {
   position: relative;
-
   flex-shrink: 0;
-
   width: 24px;
   height: 24px;
-
   border: 2px solid var(--text);
   border-radius: 50%;
 }
 
 .customRadio::after {
   content: "";
-
   position: absolute;
-
   width: 14px;
   height: 14px;
-
   border-radius: 50%;
-
   background: var(--text);
-
   top: 50%;
   left: 50%;
-
   transform: translate(-50%, -50%) scale(0);
-
   transition: transform 250ms ease;
 }
 

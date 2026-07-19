@@ -27,7 +27,6 @@ export default function RadioGroup({
             />
 
             <span className={css.customRadio}></span>
-
             <span>{option}</span>
           </label>
         ))}

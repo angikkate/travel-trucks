@@ -40,16 +40,13 @@
 .input {
   width: 100%;
   height: 56px;
-
   padding-left: 52px;
-
   border: none;
   border-radius: 12px;
 
   background: var(--white);
 
   font-size: 16px;
-
   outline: none;
   margin-bottom: 40px;
 }
@@ -76,7 +73,6 @@
 .searchBtn {
   width: 100%;
   height: 56px;
-  
   margin-bottom: 16px;
   border: none;
   border-radius: 200px;
@@ -88,7 +84,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-
   cursor: pointer;
   transition: background-color 250ms ease;
 }
@@ -103,7 +98,6 @@
   justify-content: center;
   align-items: center;
   gap: 8px;
-
   width: 100%;
   height: 56px;
 
@@ -113,14 +107,12 @@
   background: var(--white);
 
   cursor: pointer;
-
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
 
   color: var(--main);
-
   transition: border-color 250ms ease;
 }
 
@@ -131,9 +123,7 @@
 
 .clearBtn img {
   display: block;
-
   width: 24px;
   height: 24px;
-
   flex-shrink: 0;
 }

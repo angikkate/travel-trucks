@@ -2,7 +2,6 @@
   display: flex;
   align-items: flex-start;
   gap: 64px;
-
   padding: 48px 0;
 }
 
@@ -20,6 +19,5 @@
 .loadMore {
   display: flex;
   justify-content: center;
-
   margin-top: 40px;
 }

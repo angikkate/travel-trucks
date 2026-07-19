@@ -1,11 +1,10 @@
 import { useSelector } from "react-redux";
-
-import CamperCard from "../CamperCard/CamperCard";
-
 import {
   selectCampers,
   selectError,
 } from "../../redux/campers/selectors";
+
+import CamperCard from "../CamperCard/CamperCard";
 
 import css from "./CamperList.module.css";
 
@@ -14,7 +13,11 @@ export default function CamperList() {
   const error = useSelector(selectError);
 
   if (error) {
-    return <p>{error}</p>;
+    return (
+      <p className={css.error}>
+        Something went wrong. Please try again later.
+      </p>
+    );
   }
 
   return (

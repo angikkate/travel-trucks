@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Container from "../../components/Container/Container";
+
 import heroImg from "../../assets/images/hero.jpg";
 import css from "./HomePage.module.css";
 

@@ -2,19 +2,16 @@
   width: 145px;
   height: 56px;
 
-
   border: 1px solid var(--gray-light);
   border-radius: 200px;
 
   background: var(--white);
-
   color: var(--main);
 
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-
   cursor: pointer;
 
   transition:

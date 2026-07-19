@@ -1,5 +1,6 @@
 import CamperFeatures from "../CamperFeatures/CamperFeatures";
 import { formatText } from "../../utils/formatText";
+
 import css from "./VehicleDetails.module.css";
 
 export default function VehicleDetails({ camper }) {

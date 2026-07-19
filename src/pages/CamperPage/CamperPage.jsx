@@ -12,7 +12,7 @@ import Loader from "../../components/Loader/Loader";
 import { fetchCamperById } from "../../redux/campers/operations";
 import {
   selectCamper,
-  selectLoading,
+  selectLoading
 } from "../../redux/campers/selectors";
 
 import { formatPrice } from "../../utils/formatPrice";
@@ -31,11 +31,6 @@ export default function CamperPage() {
   }, [dispatch, id]);
 
   if (loading) {
-    // return (
-    //   <Container>
-    //     <p className={css.loading}>Loading...</p>
-    //   </Container>
-    // );
     return <Loader />;
   }
 

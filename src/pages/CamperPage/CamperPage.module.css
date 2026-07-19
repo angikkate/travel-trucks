@@ -8,6 +8,7 @@
 .top {
   display: flex;
   gap: 24px;
+  align-items: stretch;
 }
 
 .left {
@@ -26,7 +27,6 @@
 
 .mainImageWrapper {
   flex: 1;
-  min-height: 505px;
 }
 
 .mainImage {
@@ -54,7 +54,6 @@
   border-radius: 16px;
   padding: 24px;
   width: 650px;
-  /* height: 304px; */
   background: var(--inputs);
 }
 

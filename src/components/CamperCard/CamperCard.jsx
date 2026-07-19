@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import RatingLocation from "../RatingLocation/RatingLocation";
 import Features from "../Features/Features";
 import { formatPrice } from "../../utils/formatPrice";
+
 import css from "./CamperCard.module.css";
 
 export default function CamperCard({ camper }) {
