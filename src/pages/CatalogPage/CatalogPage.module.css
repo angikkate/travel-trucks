@@ -1,0 +1,25 @@
+.catalog {
+  display: flex;
+  align-items: flex-start;
+  gap: 64px;
+
+  padding: 48px 0;
+}
+
+.sidebar {
+  width: 360px;
+  flex-shrink: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 888px;
+}
+
+.loadMore {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 40px;
+}

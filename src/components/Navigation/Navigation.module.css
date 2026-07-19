@@ -1,0 +1,51 @@
+.header {
+  height: 72px;
+
+  border-bottom: 1px solid var(--badges);
+  background-color: var(--inputs);
+}
+
+.container {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  height: 100%;
+}
+
+.logo {
+  display: block;
+  width: 136px;
+}
+
+nav {
+  position: absolute;
+
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.link {
+  display: block;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: var(--main);
+
+  transition: var(--transition);
+}
+
+.link:hover,
+.link:focus,
+.active {
+  color: var(--grey-green);
+}
