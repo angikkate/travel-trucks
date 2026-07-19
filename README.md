@@ -4,7 +4,7 @@ TravelTrucks is a web application for browsing and booking camper vans. Users ca
 
 ## Live Demo
 
-https://project.vercel.app
+https://travel-trucks-three-wine.vercel.app/
 
 ## Repository
 
